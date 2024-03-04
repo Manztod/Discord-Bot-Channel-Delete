@@ -68,6 +68,6 @@ async def on_ready():
     await client.close()  # Close the bot
 
 try:
-    client.run("MTIxNDI3MTY1ODMyODcyMzUyNg.GlFaSX.VsqahhiJR0i7oEZ1mGA6Qb_KNJADzV0VxQFP_c")
+    client.run("TOKEN_BOT")
 except discord.errors.LoginFailure:
     log.error("Gagal login, silakan periksa token bot Anda.")
